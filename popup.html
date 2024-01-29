@@ -1,0 +1,48 @@
+<!-- popup.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <div class="image-container">
+        <img src="important/ooo.png" class="title-image">
+        <h1 class="title">Flexi-fixed</h1>
+        <img src="important/ooo.png" class="title-image">
+    </div>
+        <p class="info-text">All data is stored locally on your machine, nothing is being shared anywhere!</p>
+        <form id="form">
+           <b> <label for="rollNo" class="label">Roll No:</label></b><br><br>
+            <input type="text" id="rollNo" name="rollNo" maxlength="8" class="input-field"><br>
+            <span id="rollNoError" class="error-message"><b>Invalid Roll No. format!</b><br><br></span>
+
+           <b> <label for="password" class="label">Password:</label></b><br><br>
+            <input type="password" id="password" name="password" class="input-field"><br><br>
+            
+            <input type="submit" value="Submit" class="submit-button">
+        </form>
+        <br>
+        <button id="deleteData" class="delete-button">Delete stored data</button>
+		<br>
+		<br>
+		   <b class="default-page-text">Default Page:</b><br><br>
+        <div class="radio-buttons">
+            <input type="radio" id="home" name="defaultPage" value="Home">
+            <label for="home">Home</label>
+            <input type="radio" id="marks" name="defaultPage" value="Marks" checked>
+            <label for="marks">Marks</label>
+            <input type="radio" id="attendance" name="defaultPage" value="Attendance">
+            <label for="attendance">Attendance</label>
+            <input type="radio" id="transcript" name="defaultPage" value="Transcript">
+            <label for="transcript">Transcript</label><br><br>
+        </div>
+        <b><p id="status" class="status-message"></p></b>
+        <br>
+		<br>
+        <p class="footer">Made by: <a href="https://github.com/ummayrr" target="_blank" class="footer-link">ummayrr</a></p>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+/* styles.css */
+
+body {
+    background-color: #D3D3D3;
+    font-family: Arial, sans-serif;
+	color: #ffffff; 
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #1a1a1a;
+	color: #ffffff;
+    border-radius: 10px;
+}
+
+.title {
+    color: #ffffff;
+    text-align: center;
+font-family: "Trebuchet MS", sans-serif;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-image {
+    height: 50px;
+    width: auto;
+    margin: 0 10px; 
+}
+
+.info-text {
+    color: #808080;
+    margin-bottom: 20px;
+}
+
+.label {
+	font-family: "Trebuchet MS", sans-serif;
+    color: #E2DFD2;
+    font-size: 18px;
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px #000000; 
+}
+
+.input-field {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+	background-color:#D3D3D3;		
+}
+
+.error-message {
+    color: red;
+	font-family: "Tahoma",sans-serif;
+    display: none;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.delete-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.status-message {
+	font-family: "Tahoma",sans-serif;
+	font-size: 13px;
+   color:#3ded97;
+}
+
+.default-page-text {
+    color: #E2DFD2;
+		font-family: "Trebuchet MS", sans-serif;
+    font-size: 15px; 
+    font-weight: bold; 
+}
+
+.radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #1a1a1a;
+    border-radius: 5px;
+}
+
+.radio-buttons input[type="radio"] {
+    display: none;
+}
+
+.radio-buttons label {
+    padding: 10px;
+    background-color: #D3D3D3;
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+		font-family: "Trebuchet MS", sans-serif;
+		 margin-right: 5px; 
+
+}
+
+.radio-buttons label:hover {
+    background-color: #B3B3B3;
+}
+
+.radio-buttons input[type="radio"]:checked + label {
+    background-color: #007BFF;
+    color: #ffffff;
+	font-weight: bold;
+}
+
+.footer {
+    font-family: "Trebuchet MS",sans-serif;
+    position: fixed;
+    bottom: 0;
+    right: 10%; 
+    font-size: 15px;
+    padding: 10px;
+    transition: all 0.5s ease;
+    opacity: 0.8; 
+}
+
+.footer:hover {
+    transform: translateY(-10px);
+    opacity: 1;
+}
+
+.footer-link {
+    color: #FFD700;
+    text-decoration: none; 
+    font-weight: bold; 
+    font-size: 15px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #FFA500;
+    transform: scale(1.1);
+}
+
