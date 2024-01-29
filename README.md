@@ -29,4 +29,6 @@ There's a workaround which is not that solid. Kiwi Browser on Android supports e
 
 ### Video for Android
 
-[Click here for Android setup video]()
+[Click here for Android setup video](https://youtu.be/GyFnNdr6i3A)
+
+The captcha workaround is not 100% proof, and you have to solve the captcha manually on some connections, for example University WiFis. On your own connections it will work almost always.
