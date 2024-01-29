@@ -25,4 +25,8 @@ If you're confused at any step, [You can watch this video](https://www.youtube.c
 
 ## If you're on Android
 
-Work in progress
+There's a workaround which is not that solid. Kiwi Browser on Android supports extensions, with some tweaks, it can be set to be treated as a standalone Flex app.
+
+### Video for Android
+
+[Click here for Android setup video]()
