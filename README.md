@@ -19,7 +19,9 @@ Browsers supported: Chrome, Edge, Opera, Brave, Firefox is not supported!
 6. Locate the extracted folder from Step 2
 7. Extension is installed! Now open [Flex](https://flexstudent.nu.edu.pk) and start the extension.
 
-### Video Demo
+## Video Demo
+
+If you're confused at any step, [You can watch this video](https://www.youtube.com/watch?v=D7LJBDtCGFY)
 
 ## If you're on Android
 
