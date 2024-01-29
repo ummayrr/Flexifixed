@@ -10,19 +10,17 @@ As you can see, shown and described in the image, you have to Enter your Roll Nu
 ## If you're on PC 
 Browsers supported: Chrome, Edge, Opera, Brave, Firefox is not supported!
 
-```bash
-# Download ZIP File
 
-# Go to the repository folder
-cd Spaceshooter_CPP-SFML
+1. Download ZIP File: [Click here](https://github.com/ummayrr/Flexifixed/releases/download/v1.0.0/Flexifixed.zip)
+2. Extract the folder of ZIP somewhere
+3. Copy and paste `chrome://extensions` into your browser's address bar, and hit enter. (Works for every browser)
+4. Enable Developer's Mode
+5. Click on Load unpacked extension
+6. Locate the extracted folder from Step 2
+7. Extension is installed! Now open [Flex](https://flexstudent.nu.edu.pk) and start the extension.
 
-# Go to the source folder
-cd src
+### Video Demo
 
-# Compile the game
-g++ -c main.cpp
-g++ main.o -o Spaceshooter -lsfml-graphics -lsfml-audio -lsfml-window -lsfml-system
+## If you're on Android
 
-# Run the game
-./Spaceshooter
-```
+Work in progress
