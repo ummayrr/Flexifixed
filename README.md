@@ -31,4 +31,4 @@ There's a workaround which is not that solid. Kiwi Browser on Android supports e
 
 [Click here for Android setup video](https://youtu.be/GyFnNdr6i3A)
 
-The captcha workaround is not 100% proof, and you have to solve the captcha manually on some connections, for example University WiFis. On your own connections it will work almost always.
+Set Default page to Home on Android, if you want to shift between menu options. The captcha workaround works for 90% of times, sometimes you may have to fill it yourself.
